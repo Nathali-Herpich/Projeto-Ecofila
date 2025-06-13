@@ -131,14 +131,19 @@ footer .dio-logo {
   width: 100px;
 }
 .button {
-color: #31A8DD;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 16px 32px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  background-color: transparent;
-  border-image: linear-gradient(#3BA1CD, #1572B7);
-  border-image-slice: 10;
-  border-radius: 30px;
+.botao {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;/
+  text-decoration: none; 
+  display: inline-block;
+  cursor: pointer; 
+  border-radius: 5px; 
 }
+
+
+
+
+  
+
