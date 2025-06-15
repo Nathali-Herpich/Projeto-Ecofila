@@ -130,12 +130,11 @@ footer .dio-logo {
   width: 250px;
 }
 
-@media (max-width: 768px) {
-  img {
-    width: 50%; /* Diminui a largura para 50% em telas menores */
-  }
-}
- 
+ @media (max-width:786px) {
+    .site {
+        padding: 18px 20px;
+    }
+ }
 
 
 
