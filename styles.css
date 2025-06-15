@@ -1,16 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Righteous&display=swap');
-.container {  
-    display: grid;  
-    grid-gap: 5px;  
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-template-rows: repeat(2, 100px);  
-}
-.container {  
-    display: grid;  
-    grid-gap: 5px;  
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: repeat(2, 100px);  
-}
 body {
   background-color: black;
 }
