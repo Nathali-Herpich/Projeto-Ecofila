@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Righteous&display=swap');
-
+@media (max-width:768px) {
+  .container {
+  flex-direction:column;
+  }
+}
 body {
   background-color: black;
 }
@@ -25,7 +29,7 @@ section {
   background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("fundo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 100%;
   padding-top: 60px;
   border-bottom: 1px solid #33A8DB80;
 }
@@ -95,7 +99,7 @@ section {
 
 #transform-world {
     background-image: url(ecofila.png);
-  height: 560px;
+  height: 100%;
   background-size: cover;
   background-image: url("fundo.png");
   background-attachment: fixed;
@@ -128,7 +132,7 @@ background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgb
 }
 footer .dio-logo {
     
-  width: 100px;
+  width: 100%;
 }
 
  
